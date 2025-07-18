@@ -1,7 +1,5 @@
 import Image from 'next/image';
-import { Button } from './ui/button';
-import { CalendarIcon, MailsIcon, TvIcon } from 'lucide-react';
-import { Separator } from './ui/separator';
+import { CalendarIcon, TvIcon } from 'lucide-react';
 import AboutMeSheet from './sheet/about-me';
 
 export default function About() {

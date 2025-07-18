@@ -12,10 +12,7 @@ import { motion } from 'framer-motion';
 import Image from 'next/image';
 import waveSvg from '../../../public/arts/wave-2.svg';
 import animatedBg from '../../../public/arts/animated-bg.svg';
-import animatedBg2 from '../../../public/arts/animated-bg-2.svg';
-import meteorBG from '../../../public/arts/meteor.svg';
 import { DotLottieReact } from '@lottiefiles/dotlottie-react';
-import { Card } from '../ui/card';
 
 const steps = [
   'SRS - System Requirement Document',

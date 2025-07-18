@@ -8,7 +8,6 @@ import 'swiper/css/effect-fade';
 import 'swiper/css/navigation';
 
 import { Autoplay, Pagination, EffectFade } from 'swiper/modules';
-import Image from 'next/image';
 import { exp } from '@/lib/helper';
 import Link from 'next/link';
 

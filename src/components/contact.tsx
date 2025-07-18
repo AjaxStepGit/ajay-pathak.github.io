@@ -4,7 +4,6 @@ import { Card } from './ui/card';
 import Icon from './ui/icon';
 import { Input } from './ui/input';
 import { Textarea } from './ui/textarea';
-import Image from 'next/image';
 
 export default function Contact() {
   return (

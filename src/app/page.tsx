@@ -9,7 +9,6 @@ import Portfolio from '@/components/portfolio';
 import Projects from '@/components/projects';
 import Service from '@/components/service';
 import Testimonials from '@/components/testimonials';
-import Image from 'next/image';
 
 export default function Home() {
   return (

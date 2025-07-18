@@ -1,5 +1,4 @@
-import { PlusIcon, Paintbrush, Computer } from 'lucide-react';
-import curveLine from '../../../public/arts/curve-line.svg';
+import { Paintbrush, Computer } from 'lucide-react';
 import Image from 'next/image';
 import ExploreDesignDialog from './dialog/explore-desig';
 import DevProjectsDialog from './dialog/development-dialog';

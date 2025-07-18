@@ -9,18 +9,6 @@ import { useEffect, useRef } from 'react';
 import TiltCard from './ui/tilt-card';
 
 export default function Hero() {
-  var letter_variant: any = {
-    visible: (i: number) => ({
-      y: 0,
-      opacity: 1,
-      transition: {
-        delay: i * 0.15,
-        type: 'spring',
-        stiffness: 100,
-      },
-    }),
-  };
-
   const containerRef = useRef<HTMLDivElement | null>(null);
 
   useEffect(() => {
@@ -125,7 +113,7 @@ export default function Hero() {
           >
             Product Builder
           </motion.p>
-          
+
           <div
             className="container flex justify-start w-[500px] invisible"
             ref={containerRef}
@@ -147,7 +135,6 @@ export default function Hero() {
             bring ideas to life with code and clarity.
           </motion.p>
           <div className="flex gap-6">
-          
             <HowIWork />
             <ContactDialog triggerClassName="text-white text-base bg-transparent" />
           </div>

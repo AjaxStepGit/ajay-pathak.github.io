@@ -1,5 +1,4 @@
 import { CherryIcon } from 'lucide-react';
-import { Button } from './ui/button';
 import ContactDialog from './dialog/contact-dialog';
 
 export default function Header() {

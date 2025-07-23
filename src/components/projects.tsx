@@ -6,7 +6,7 @@ import Link from 'next/link';
 
 export default function Projects() {
   return (
-    <section className="bg-primary-dark w-full min-h-screen flex justify-center py-14">
+    <section id='project' className="bg-primary-dark w-full min-h-screen flex justify-center py-14">
       <div className="w-res flex flex-col">
         {/* Header */}
         <div className="flex w-full justify-between mt-14">

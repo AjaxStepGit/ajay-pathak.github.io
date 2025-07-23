@@ -4,7 +4,7 @@ import AboutMeSheet from './sheet/about-me';
 
 export default function About() {
   return (
-    <section className="bg-base flex flex-col w-full py-27 justify-center items-center">
+    <section id='about' className="bg-base flex flex-col w-full py-27 justify-center items-center">
       <div className="flex relative w-res gap-[170px]">
         <Image
           src={'/image/about-image-me.webp'}

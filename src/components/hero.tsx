@@ -58,7 +58,7 @@ export default function Hero() {
   }, []);
 
   return (
-    <section className="bg-primary-dark h-screen w-full flex justify-center">
+    <section id='hero' className="bg-primary-dark h-screen w-full flex justify-center">
       <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}

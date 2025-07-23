@@ -11,7 +11,7 @@ export default function NewLook() {
   ];
 
   return (
-    <section className="relative bg-primary-dark flex flex-col justify-center w-full">
+    <section id='newlook' className="relative bg-primary-dark flex flex-col justify-center w-full">
       <div className="flex justify-center w-full relative py-27">
         <div className="flex h-full w-res items-center gap-[125px]">
           <div className="flex flex-col gap-5">

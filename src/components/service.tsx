@@ -6,7 +6,7 @@ import ServiceDialog from './dialog/service-dialog';
 
 export default function Service() {
   return (
-    <div className="bg-base relative h-screen w-full flex justify-center">
+    <div id='service' className="bg-base relative h-screen w-full flex justify-center">
       <Image
         src={'/arts/color-shape-sz.svg'}
         className="absolute z-5 bottom-0 w-full h-auto"

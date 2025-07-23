@@ -34,7 +34,7 @@ export default function Testimonials() {
   ];
 
   return (
-    <section className="section-wrapper bg-base min-h-screen">
+    <section id='testimonials' className="section-wrapper bg-base min-h-screen">
       <div className="flex flex-col items-center w-res">
         <h3 className="title-text">testimonials</h3>
         <h2 className="heading-text w-[394px] mb-16 text-center">

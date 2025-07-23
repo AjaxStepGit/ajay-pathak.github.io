@@ -13,7 +13,7 @@ import Link from 'next/link';
 
 export default function Portfolio() {
   return (
-    <section className="bg-primary-dark w-full flex justify-center py-14">
+    <section id='portfolio' className="bg-primary-dark w-full flex justify-center py-14">
       <div className="w-res flex flex-col">
         <div className="flex w-full justify-between">
           <div className="flex flex-col gap-5">

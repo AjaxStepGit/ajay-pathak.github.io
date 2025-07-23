@@ -10,7 +10,7 @@ import Image from 'next/image';
 
 export default function Faq() {
   return (
-    <section className="section-wrapper py-27">
+    <section id='faq' className="section-wrapper py-27">
       <div className="flex flex-col">
         <div className="flex w-res gap-[130px] flex-row">
           <div className="flex flex-col w-full lg:w-1/2">
